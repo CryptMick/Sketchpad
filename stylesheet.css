@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+#container {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    border: 1px solid #45cef0;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#container #sub-container {
+    display: flex;
+    height: 500px;
+    width: 500px;
+}
+#sub-container .grid {
+    flex: 1 1 0;
+}
